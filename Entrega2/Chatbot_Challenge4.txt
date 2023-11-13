@@ -1,0 +1,17 @@
+ANDROMEDA SYS
+Caio Ribeiro Rodrigues – RM99759 – 1TSPY
+Eduardo Jablinski – RM550975 – 1TDSPY
+Gabriel Cunha – RM98074 – 1TDSPX
+Guilherme Riofrio – RM550137 – 1TDSPY
+Natalia Scigliano – RM98430 – 1TDSPX
+
+
+	Os dados foram coletados a partir do Kaggle, uma plataforma de construção de portfólios e de estudos sobre Data Science. A partir do problema enfrentado pela Porto Seguro, nosso objetivo foi o de encontrar um dataset relacionado a todos os acidentes envolvendo veículos no ano de 2023, já que dessa forma, será possível analisar a fundo todas as formas possíveis de acidentes que podem ocorrer para melhorar ainda mais a eficiência na recomendação de modais de atendimento.
+	As pastas de arquivos .csv foram organizadas de forma separada a partir da localização dos acidentes. Dentro de cada localidade, os dados são organizados em colunas que são, respectivamente: data, horário, número da ocorrência, tipo de ocorrência (com ou sem vítimas), km, trecho, sentido e o tipo de acidente (colisão, engavetamento, capotamento etc.). Também existem colunas para representar o tipo de veículo (bicicleta, carro, ônibus, caminhão ou outro) onde são adicionados números para corresponder a quantidade respectiva desses veículos na ocorrência. Além disso, são apresentadas também 3 colunas correspondentes à gravidade da ocorrência (leve, moderada e/ou grave). Número de vítimas e ilesos são colunas existentes também.
+	A quantidade de dados levantados são milhares, e seus rótulos facilitam a compreensão deles. No exemplo obtido abaixo, foram selecionadas 124 ocorrências envolvendo caminhões e ônibus dentro de tipos_acidente; é possível observar que a maior parte dos acidentes ocorreram com colisões traseiras e veículos que saíram da pista. A segunda maior parte também foram de tombamentos e capotamento. A partir dessas informações é possível pensar em um sistema de atendimento da Porto Seguro que seja melhor capaz de identificar esses tipos de ocorrências e filtrar o melhor modal de atendimento, evitando demora e melhorando a assertividade no direcionamento do socorro correto.
+
+
+	O objetivo do MVP (Minimum Viable Product) Andromeda Sys é o de melhorar a assertividade na recomendação de modal para o atendimento de veículos pesados, a partir de informações que serão coletadas na abertura do chamado, principalmente relacionadas às condições da via e do veículo. A captação de dados reais pode auxiliar a formular um programa inteligente e preciso, que contará com um chatbot inteligente em tempo real para interagir com o usuário e a atualização constante no banco de dados – com informações do veículo do segurado, bem como se houve alterações adicionais no mesmo durante os últimos meses.
+
+
+
